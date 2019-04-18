@@ -5,10 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prod": "  webpack --env.mode production",
-    "dev": " webpack-dev-server --open --env.mode development --hot",
-    "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
-    "prod:debug": " debug  --env.mode production",
-    "dev:debug": " debug  --env.mode development",
+    "dev": " webpack-dev-server --open --env.mode development",
     "prod:analyze": " prod --env.presets analyze"
   },
   "repository": "https://github.com/idrismakesgames/react-boilerplate.git",
