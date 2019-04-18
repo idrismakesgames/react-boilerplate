@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "Minimal and Optimized React / Webpack Boilerplate",
   "main": "index.js",
+  "scripts": {
+    "start": " webpack-dev-server --open --mode development --hot",
+    "build": " webpack --mode production"
+  },
   "repository": "https://github.com/idrismakesgames/react-boilerplate.git",
   "author": "Idris Hussain <idrismakesgames@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
 }
