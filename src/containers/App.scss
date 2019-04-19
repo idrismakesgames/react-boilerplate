@@ -1,6 +1,18 @@
 .app {
   width: 100px;
   height: 100px;
-  background: yellow;
-  color: #000;
+  background: blue;
+  color: yellow;
+
+  .class1 {
+    .class2 {
+      .class3 {
+        background: black;
+
+        .class4 {
+          color: white;
+        }
+      }
+    }
+  }
 }

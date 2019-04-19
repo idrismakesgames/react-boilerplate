@@ -1,15 +1,19 @@
 # react-boilerplate
+
 React / Webpack 4 Minimal Boilerplate.
 
 Include Support for:
-* Sass Modules,
-* Jest / Enzyme, 
-* SVG Spritesheets
-* PNG Spritesheets, 
-* Hot Reloading,
-* Branching Configs for  Development, Product & Release,
-* Webpack Preset Configs for Debugging & Analyzing Code,
-* Code Splitting and Performance,
-* Sourcemaps,
-* Major Compression and Speed,
-* Storybook Support,
+
+- Sass Modules,
+- Jest / Enzyme,
+- JS & SCSS Linting,
+- Hot Reloading,
+- SCSS Base, Mixins, and Helper Classes
+- Branching Configs for Development, Product & Release,
+- Webpack Preset Configs for Debugging & Analyzing Code,
+- SVG Spritesheets
+- PNG Spritesheets,
+- Code Splitting and Performance,
+- Production Sourcemaps,
+- Major Compression and Speed,
+- Storybook Support,
