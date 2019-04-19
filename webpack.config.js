@@ -6,7 +6,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const modeConfig = env => require(`./build-webpack/webpack.${env}`)(env);
 
 // Load in a function that will apply the presets that are passed in.
-const presetConfig = require("./build-webpack/applyPresets");
+const presetConfig = require("./build-webpack/presets/applyPresets");
 
 // When running webpack script, a mode, & presets are passed in. (defined in
 // These are defined in the `build-webpack` folder, & then merged in with this config.

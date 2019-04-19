@@ -8,7 +8,7 @@ Include Support for:
 - Jest / Enzyme,
 - JS & SCSS Linting,
 - Hot Reloading,
-- SCSS Base, Mixins, and Helper Classes
+- SCSS Global Base, Auto-prefixing and Helper Classes
 - Branching Configs for Development, Product & Release,
 - Webpack Preset Configs for Debugging & Analyzing Code,
 - SVG Spritesheets

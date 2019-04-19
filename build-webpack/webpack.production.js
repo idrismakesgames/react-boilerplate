@@ -1,20 +1,25 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const cssLoaders = require("./css-settings/cssSettings");
 
 module.exports = () => ({
   module: {
     rules: [
       {
-        test: /\.(sa|sc|c)ss$/,
+        test: /\.scss$/,
+        exclude: /\.module\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
-          {
-            loader: "css-loader",
-            options: {
-              modules: true,
-              importLoaders: 1,
-              localIdentName: "[name]_[local]_[hash:base64:5]"
-            }
-          },
+          cssLoaders.CSSLoader,
+          cssLoaders.postCSSLoader,
+          "sass-loader"
+        ]
+      },
+      {
+        test: /\.module\.scss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          cssLoaders.CSSModuleLoader,
+          cssLoaders.postCSSLoader,
           "sass-loader"
         ]
       }
