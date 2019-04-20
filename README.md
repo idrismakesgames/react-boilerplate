@@ -17,3 +17,9 @@ Include Support for:
 - Production Sourcemaps,
 - Major Compression and Speed,
 - Storybook Support,
+
+Performance Goals:
+
+- <= 300kb Javascript Initial Load Aim
+- <= 100kb CSS Initial Load Aim
+- <= 6 HTTP Requests
