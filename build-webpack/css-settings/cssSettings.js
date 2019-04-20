@@ -1,5 +1,4 @@
 const autoprefixer = require("autoprefixer");
-const postCSSVars = require("postcss-simple-vars");
 
 module.exports = {
   CSSModuleLoader: {
