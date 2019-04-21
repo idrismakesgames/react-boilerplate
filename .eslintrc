@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb"],
+  "extends": ["airbnb", "plugin:jest/recommended"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -11,9 +11,10 @@
   "env": {
     "es6": true,
     "jest": true,
+    "jest/globals": true,
     "browser": true
   },
-  "plugins": ["react", "jsx-a11y", "import"],
+  "plugins": ["react", "jsx-a11y", "import", "jest"],
   "rules": {
     "react/jsx-filename-extension": [
       1,
