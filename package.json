@@ -4,7 +4,8 @@
   "description": "Minimal and Optimized React / Webpack Boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
     "prod": " webpack --env.mode production",
     "dev": " webpack-dev-server --open --env.mode development",
