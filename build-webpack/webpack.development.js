@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const cssLoaders = require('./css-settings/cssSettings');
 
 module.exports = () => ({
-  devtool: 'source-map',
+  devtool: 'cheap-module-eval-source-map',
   module: {
     rules: [
       {
