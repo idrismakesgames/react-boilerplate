@@ -4,7 +4,7 @@
   "description": "Minimal and Optimized React / Webpack Boilerplate",
   "main": "index.js",
   "scripts": {
-    "fix-styles": " prettier-stylelint --write 'src/**/*.{css,scss}'",
+    "test": "jest",
     "prod": " webpack --env.mode production",
     "dev": " webpack-dev-server --open --env.mode development",
     "prod:analyze": " npm run prod -- --env.presets analyze"
@@ -46,6 +46,7 @@
     "eslint-loader": "^2.1.2",
     "node-sass": "^4.11.0",
     "postcss-loader": "^3.0.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "sass-loader": "^7.1.0",
