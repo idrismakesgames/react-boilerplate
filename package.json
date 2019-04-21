@@ -7,8 +7,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
-    "prod": " webpack --env.mode production",
     "dev": " webpack-dev-server --open --env.mode development",
+    "prod": " webpack --env.mode production",
     "prod:analyze": " npm run prod -- --env.presets analyze"
   },
   "repository": "https://github.com/idrismakesgames/react-boilerplate.git",
