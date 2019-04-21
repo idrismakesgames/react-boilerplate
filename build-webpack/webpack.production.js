@@ -1,5 +1,4 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const webpack = require('webpack');
 const cssLoaders = require('./css-settings/cssSettingsRelease');
 
 module.exports = () => ({
