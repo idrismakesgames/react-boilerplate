@@ -1,0 +1,17 @@
+@import "../global-styles/global.scss";
+
+.app {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  background: #666;
+  color: $color1;
+
+  .class1 {
+    .class2 {
+      .class3 {
+        background: black;
+      }
+    }
+  }
+}
