@@ -2,7 +2,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const cssLoaders = require('./css-settings/cssSettingsRelease');
 
 module.exports = () => ({
-  devtool: 'cheap-module-eval-source-map',
   module: {
     rules: [
       {
