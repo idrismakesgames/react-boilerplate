@@ -8,13 +8,13 @@ Include Support for:
 - Jest / Enzyme,
 - JS & SCSS Linting,
 - Hot Reloading,
-- SCSS Global Base, Mixins Auto-prefixing and Helper Classes
 - Branching Configs for Development, Product & Release,
 - Webpack Preset Configs for Debugging & Analyzing Code,
 - SVG Spritesheets
 - PNG Spritesheets,
-- Code Splitting and Performance,
 - Production SCSS / JS Sourcemaps,
+- SCSS Global Base, Mixins Auto-prefixing and Helper Classes
+- Code Splitting and Performance,
 - Major Compression and Speed,
 - Storybook Support,
 
