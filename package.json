@@ -9,6 +9,14 @@
     "dev": " webpack-dev-server --open --env.mode development",
     "prod:analyze": " npm run prod -- --env.presets analyze"
   },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./build-webpack/jest-enzyme-setup/setupTests.js"
+    ]
+  },
   "repository": "https://github.com/idrismakesgames/react-boilerplate.git",
   "author": "Idris Hussain <idrismakesgames@gmail.com>",
   "license": "MIT",
