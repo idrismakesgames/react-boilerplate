@@ -4,9 +4,10 @@
   "description": "Minimal and Optimized React / Webpack Boilerplate",
   "main": "index.js",
   "scripts": {
-    "prod": "  webpack --env.mode production",
+    "fix-styles": " prettier-stylelint --write 'src/**/*.{css,scss}'",
+    "prod": " webpack --env.mode production",
     "dev": " webpack-dev-server --open --env.mode development",
-    "prod:analyze": "npm run prod -- --env.presets analyze"
+    "prod:analyze": " npm run prod -- --env.presets analyze"
   },
   "repository": "https://github.com/idrismakesgames/react-boilerplate.git",
   "author": "Idris Hussain <idrismakesgames@gmail.com>",
@@ -15,9 +16,15 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
+    "eslint": "^5.16.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.6.0",
+    "prettier-stylelint": "^0.4.2",
     "react-hot-loader": "^4.8.4",
+    "stylelint": "^10.0.1",
+    "stylelint-config-recommended-scss": "^3.3.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-scss": "^3.6.0",
     "webpack": "^4.30.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.0",
