@@ -25,7 +25,7 @@ module.exports = ({ mode, presets } = { mode: 'production', presets: [] }) => we
       ],
     },
     output: {
-      filename: 'bundle.js',
+      filename: 'bundle3.js',
     },
     plugins: [
       new HtmlWebPackPlugin({

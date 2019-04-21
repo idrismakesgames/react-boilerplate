@@ -4,4 +4,6 @@ import App from './containers/App/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-module.hot.accept();
+if (module.hot) {
+  module.hot.accept();
+}
