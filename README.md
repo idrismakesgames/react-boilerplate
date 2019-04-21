@@ -14,7 +14,7 @@ Include Support for:
 - SVG Spritesheets
 - PNG Spritesheets,
 - Code Splitting and Performance,
-- Production Sourcemaps,
+- Production SCSS / JS Sourcemaps,
 - Major Compression and Speed,
 - Storybook Support,
 
