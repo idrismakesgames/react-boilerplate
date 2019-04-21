@@ -9,7 +9,13 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
-  it('contains a footer component', () => {
-    expect(app.find('Footer')).toHaveProp('name', 'footer');
+  describe('Footer', () => {
+    it('is contained within the `App` component', () => {
+      expect(app.find('Footer').exists()).toEqual(true);
+    });
+
+    it('contains the correct prop name', () => {
+      expect(app.find('Footer')).toHaveProp('name', 'footer');
+    });
   });
 });
