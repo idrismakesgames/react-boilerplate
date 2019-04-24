@@ -13,7 +13,9 @@ export default class SearchForm extends Component {
   }
 }
 
-// Get local state disabled search formw hen searching.
+// Add three options and update the store to see selection.
+
+// Get local state disabled search form when searching.
 // ensure to test for this, checking local component state.
 
 // Reset button to clear and search again.
@@ -22,3 +24,9 @@ export default class SearchForm extends Component {
 // get api results and store them and output them into components.
 
 // Create button to see readme component use browser router and test in jest.
+
+// store should be:
+//    meal type: breakfast, lunch dinner.
+//    search term: text in input.
+//    search disabled: boolean. if results is not empty. (not needed?)
+//    results: object.
