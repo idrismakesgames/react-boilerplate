@@ -10,10 +10,9 @@ Include Support for:
 - Hot Reloading,
 - Branching Configs for Development, Product & Release,
 - Webpack Preset Configs for Debugging & Analyzing Code,
-- SVG Spritesheets
-- PNG Spritesheets,
 - Production SCSS / JS Sourcemaps,
-- SCSS Global Base, Mixins Auto-prefixing and Helper Classes
+- SCSS Global Base, Mixins Auto-prefixing and Helper Classes,
+- Respsonive, Lazy Loading Images, PNG JPEG SVG GIF Support,
 - Code Splitting and Performance,
 - Major Compression and Speed,
 - Storybook Support,

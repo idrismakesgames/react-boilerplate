@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders properly 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    Welcome to my \`Boilerplate Test Project\`
+  </h1>
+</div>
+`;

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import SearchForm from '../SearchForm/SearchForm';
+import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import '../../global-styles/global.scss';
 import classes from './App.module.scss';
@@ -8,12 +10,14 @@ class App extends Component {
     person: 'testing',
   };
 
-  testFunct = () => 'Add this';
+  testFunct = () => 'Search Below';
 
   render() {
     return (
-      <div className={classes.app}>
-        {this.state.person} Sewhatatart! changing the snapshot to test json {this.testFunct()}
+      <div className={classes.app} person={this.state.person}>
+        <Header name="header" />
+        {this.testFunct()}
+        <SearchForm name="search" />
         <Footer name="footer" />
       </div>
     );

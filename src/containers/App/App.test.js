@@ -9,12 +9,22 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
-  describe('Footer', () => {
-    it('is contained within the `App` component', () => {
-      expect(app.find('Footer').exists()).toEqual(true);
+  describe('Header ', () => {
+    it('is contained within the `App` component, with a name prop', () => {
+      expect(app.find('Header').exists()).toEqual(true);
+      expect(app.find('Header')).toHaveProp('name', 'header');
     });
+  });
 
-    it('contains the correct prop name', () => {
+  describe('Search Form ', () => {
+    it('is contained within the `App` component, with a name prop', () => {
+      expect(app.find('SearchForm').exists()).toEqual(true);
+    });
+  });
+
+  describe('Footer ', () => {
+    it('is contained within the `App` component, with a name prop', () => {
+      expect(app.find('Footer').exists()).toEqual(true);
       expect(app.find('Footer')).toHaveProp('name', 'footer');
     });
   });

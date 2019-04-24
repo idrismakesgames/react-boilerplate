@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Form  renders properly 1`] = `
+<div>
+  This is the search form placeholder
+  <input
+    className="input-search"
+    type="text"
+  />
+</div>
+`;

@@ -1,10 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders properly 1`] = `
-<div>
-  testing
-   Sewhatatart! changing the snapshot to test json 
-  Add this
+<div
+  className="app"
+  person="testing"
+>
+  <Header
+    name="header"
+  />
+  Search Below
+  <SearchForm
+    name="search"
+  />
   <Footer
     name="footer"
   />

@@ -3,7 +3,6 @@
 const webpackMerge = require('webpack-merge');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
-const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
 // Load in a function that will require the `mode` / `env` specific config.
 const modeConfig = env => require(`./build-webpack/webpack.${env}`)(env);
@@ -23,18 +22,6 @@ module.exports = ({ mode, presets } = { mode: 'production', presets: [] }) => we
           exclude: /node_modules/,
           use: ['babel-loader', 'eslint-loader'],
         },
-        {
-          test: /icons\/.*\.svg$/,
-          use: [
-            {
-              loader: 'svg-sprite-loader',
-              options: {
-                extract: true,
-                spriteFilename: './dist/icons.svg',
-              },
-            },
-          ],
-        },
       ],
     },
     output: {
@@ -46,9 +33,6 @@ module.exports = ({ mode, presets } = { mode: 'production', presets: [] }) => we
         filename: './index.html',
       }),
       new StyleLintPlugin(),
-      new SpriteLoaderPlugin({
-        plainSprite: true,
-      }),
     ],
   },
   // Merge in specific mode config defined in the script.

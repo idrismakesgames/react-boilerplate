@@ -70,7 +70,7 @@ module.exports = {
   moduleNameMapper: {
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
       '<rootDir>/build-webpack/jest-settings/fileMock.js',
-    '\\.(css|scss)$': '<rootDir>/build-webpack/jest-settings/styleMock.js',
+    '\\.(css|scss)$': '<rootDir>/node_modules/jest-css-modules',
   },
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
