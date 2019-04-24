@@ -12,7 +12,7 @@ Include Support for:
 - Webpack Preset Configs for Debugging & Analyzing Code,
 - Production SCSS / JS Sourcemaps,
 - SCSS Global Base, Mixins Auto-prefixing and Helper Classes,
-- Respsonive, Lazy Loading Images, PNG JPEG SVG GIF Support,
+- Image Compression and smart bundling, PNG JPEG SVG GIF Support,
 - Code Splitting and Performance,
 - Major Compression and Speed,
 - Storybook Support,
