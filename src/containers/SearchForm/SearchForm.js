@@ -28,5 +28,4 @@ export default class SearchForm extends Component {
 // store should be:
 //    meal type: breakfast, lunch dinner.
 //    search term: text in input.
-//    search disabled: boolean. if results is not empty. (not needed?)
 //    results: object.
