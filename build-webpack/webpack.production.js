@@ -28,6 +28,11 @@ module.exports = () => ({
           'sass-loader',
         ],
       },
+      {
+        test: /\.(jpg|jpeg|png|gif|svg)$/,
+        loader: 'image-webpack-loader',
+        enforce: 'pre',
+      },
     ],
   },
   plugins: [

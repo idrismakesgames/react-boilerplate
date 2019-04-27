@@ -22,6 +22,22 @@ module.exports = ({ mode, presets } = { mode: 'production', presets: [] }) => we
           exclude: /node_modules/,
           use: ['babel-loader', 'eslint-loader'],
         },
+        {
+          test: /\.(jpe?g|png|gif)$/,
+          loader: 'url-loader',
+          options: {
+            // Images larger than 10 KB won’t be inlined
+            limit: 10 * 1024,
+          },
+        },
+        {
+          test: /\.svg$/,
+          loader: 'svg-url-loader',
+          options: {
+            limit: 10 * 1024,
+            noquotes: true,
+          },
+        },
       ],
     },
     output: {
