@@ -1,6 +1,6 @@
 # react-boilerplate
 
-React / Webpack 4 Minimal Boilerplate.
+A Custom React / Webpack 4 Minimal Boilerplate, Created for projects with KOBAS / Rixxo.
 
 Include Support for:
 
